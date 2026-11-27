@@ -45,6 +45,7 @@ section  h2{
     font-weight: 500;
     line-height: 150%;
 
+    margin: 0;
     text-transform: uppercase;
 }
 
@@ -208,4 +209,53 @@ header nav a{
 .conhecimencos-list{
     flex-wrap: wrap;
     gap: 20px;
+}
+
+/*Contato*/
+
+#contato{
+    gap: 3rem;
+    padding-block: 4rem;
+}
+
+#contato > h2{
+    margin: 0;
+}
+
+#contato > ul{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+#contato > ul > li{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#contato a{
+    color: var(--clr-black);
+    text-decoration: none;
+}
+
+#contato > cite{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 1.5rem;
 }
