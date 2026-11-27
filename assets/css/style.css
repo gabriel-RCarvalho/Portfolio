@@ -40,7 +40,7 @@ section{
     padding: 2rem 1.5rem;
 }
 
-section > h2{
+section  h2{
     font-size: 24px;
     font-weight: 500;
     line-height: 150%;
@@ -166,4 +166,46 @@ header nav a{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+#servico{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+}
+
+.servicos{
+
+}
+
+.conhecimencos{
+
+}
+
+.base-list{
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.base-list > li{
+    background-color: var(--clr-primary);
+    padding: 1rem;
+    font-size: 18px;
+    font-size: 600;
+    border-radius: 3px;
+}
+
+.servicos-list{
+    gap: 1rem;
+}
+
+.conhecimencos-list{
+    flex-wrap: wrap;
+    gap: 20px;
 }
